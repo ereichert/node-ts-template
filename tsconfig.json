@@ -17,9 +17,8 @@
     "forceConsistentCasingInFileNames": true,
   },
   "include": [
-    "./.eslintrc.js",
+    ".eslintrc.js",
     "src/**/*.ts",
-    "tests/**/*.ts"
   ],
   "exclude": [
     "node_modules",
