@@ -2,7 +2,14 @@
   "name": "node-ts-template",
   "version": "1.0.0",
   "description": "Template for getting a TypeScript project working quickly.",
-  "main": "index.js",
+  "main": "./build/index.js",
   "repository": "https://github.com/ereichert/node-ts-template",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "yarn run build && node ./build/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
 }
