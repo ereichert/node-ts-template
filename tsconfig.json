@@ -17,6 +17,7 @@
     "forceConsistentCasingInFileNames": true,
   },
   "include": [
+    "./.eslintrc.js",
     "src/**/*.ts",
     "tests/**/*.ts"
   ],
