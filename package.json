@@ -1,0 +1,8 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "description": "Template for getting a TypeScript project working quickly.",
+  "main": "index.js",
+  "repository": "https://github.com/ereichert/node-ts-template",
+  "license": "UNLICENSED"
+}
