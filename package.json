@@ -7,9 +7,13 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "yarn run build && node ./build/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "test:unit": "jest",
+    "test:unit:watch": "yarn run test:unit -- --watch"
   },
   "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
     "typescript": "^3.9.5"
   }
 }
