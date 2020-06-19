@@ -2,7 +2,7 @@ module.exports = {
   extends: ['airbnb-typescript/base'],
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'script',
+    sourceType: 'module',
     project: './tsconfig.test.json',
   },
   rules: {
